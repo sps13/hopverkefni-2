@@ -1,3 +1,11 @@
+#Hópverkefni 2 
+
+Nemendur: Ramon de la Rosa, Snædís Perla Sigurðardóttir og Jóhann Karl Hirst.
+
+
+
+
+
 # Hópverkefni 2
 
 Verkefnið felst í því að smíða prótótýpu af fyrirlestravef fyrir vefforritun. Gefin eru gögn sem unnin eru uppúr námsefni vetrarins.
