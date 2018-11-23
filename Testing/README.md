@@ -1,6 +1,8 @@
 #Hópverkefni 2 
 
-Nemendur: Ramon de la Rosa, Snædís Perla Sigurðardóttir og Jóhann Karl Hirst.
+Nemendur: Ramon de la Rosa, Snædís Perla Sigurðardóttir og Jóhann Karl Hirst. 
+
+Ekki gleyma að uppfæra reglurnar fyrir hvernig á að skipuleggja verkefnið.
 
 
 
