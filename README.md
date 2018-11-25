@@ -5,6 +5,13 @@ Nemendur: Ramon de la Rosa, Snædís Perla Sigurðardóttir og Jóhann Karl Hirs
 Ekki gleyma að uppfæra reglurnar fyrir hvernig á að skipuleggja verkefnið.
 
 
+## Tæki og tól
+
+Forritið er keyrt með því að setja upp npm og keyra það.
+--> npm install
+--> npm run dev
+
+
 
 
 
