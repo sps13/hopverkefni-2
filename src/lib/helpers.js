@@ -13,8 +13,8 @@ export function empty(element) {
 /**
  * Býr til element og setur aukalega börn ef þau eru send með meðfylgjandi..
  *
- * @param {string} name Nafn á element
- * @param  {...any} children Börn fyrir element
+ * @param {string} name á element
+ * @param  {...any} children fyrir element
  */
 export function el(name, ...children) {
   const element = document.createElement(name);
