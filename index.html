@@ -2,44 +2,184 @@
 <html lang="is">
 <head>
   <meta charset="utf-8">
-  <link rel="grid" href="grid.css">
   <title>Hópverkefni 2</title>
+
+  <link rel="stylesheet" href="grid.css">
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Lora:400,700|Roboto+Mono:400,700" rel="stylesheet">
+ 
+
 </head>
 <body>
   <header class="header">
     <div class="header__content">
-      <p>VEFFORRITUN</p>
+      <p class="header__paragraph">Vefforritun</p>
       <h1 class="header__title">Fyrirlestrar</h1>
     </div>
   </header>
-    
+
   <main>
-    
     <div class="options">
       <div class="options__row">
-        <ul class="options__list">
-          <li class="option">
-            <button class="option__button">HTML</button>
-          </li>
-          <li class="option">
-            <button class="option__button">CSS</button>
-          </li>
-          <li class="option">
-            <button class="option__button">JavaScript</button>
-          </li>
-        </ul>
-      </div>
-    </div>
-    
-    <section class="section">
-      <div class="section__col">
-        <div class="section__content">
-              
+        <div class="options__col">
+            <div class="buttons">
+              <button class="option__button">HTML</button>
+              <button class="option__button">CSS</button>
+              <button class="option__button">JavaScript</button>
+            </div>
         </div>
       </div>
-    </section>
-    
-  </main>
+    </div>
 
+    <div class="lectures">
+      <div class="lectures__row">
+        <div class="lectures__col html">
+          <div class="lectures__card pic1">
+            <a href="fyrirlestur.html?slug=html-sagan">
+            <div class="lectures__text">            
+              <p class="lectures__paragraph">HTML</p>
+              <p class="lectures__title">Sagan</p>
+            </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="lectures__col html">
+          <div class="lectures__card lectures__card--sm">
+            <a href="fyrirlestur.html?slug=html-element">
+            <div class="lectures__text lectures__text--sm">            
+              <p class="lectures__paragraph">HTML</p>
+              <p class="lectures__title">Element</p>
+            </div>
+            </a>
+          </div>
+        </div>
+
+        <div class="lectures__col html">
+          <div class="lectures__card pic2">
+            <a href="fyrirlestur.html?slug=html-a11y">
+            <div class="lectures__text">            
+              <p class="lectures__paragraph">HTML</p>
+              <p class="lectures__title">Aðgengi</p>
+            </div>
+            </a>
+          </div>          
+        </div>
+
+        <div class="lectures__col css">
+          <div class="lectures__card pic3">
+            <a href="fyrirlestur.html?slug=css-syntax">
+            <div class="lectures__text">            
+              <p class="lectures__paragraph">CSS</p>
+              <p class="lectures__title">Málfræði</p>
+            </div>
+            </a>
+          </div>          
+        </div>
+
+        <div class="lectures__col css">
+          <div class="lectures__card pic4">
+            <a href="fyrirlestur.html?slug=css-box">
+            <div class="lectures__text">            
+              <p class="lectures__paragraph">CSS</p>
+              <p class="lectures__title">Box model</p>
+            </div>
+            </a>
+          </div>          
+        </div>
+
+        <div class="lectures__col css">
+          <div class="lectures__card pic5">
+            <a href="fyrirlestur.html?slug=css-flexbox">
+            <div class="lectures__text">            
+              <p class="lectures__paragraph">CSS</p>
+              <p class="lectures__title">Flexbox</p>
+            </div>
+            </a>
+          </div>          
+        </div>
+
+        <div class="lectures__col css">
+          <div class="lectures__card pic6">
+            <a href="fyrirlestur.html?slug=css-responsive">
+            <div class="lectures__text">            
+              <p class="lectures__paragraph">CSS</p>
+              <p class="lectures__title">Skalanleg vefhönnun</p>
+            </div>
+            </a>
+          </div>          
+        </div>
+
+        <div class="lectures__col js">
+          <div class="lectures__card lectures__card--sm">
+            <a href="fyrirlestur.html?slug=js-basic">
+            <div class="lectures__text lectures__text--lg lectures__text--sm">            
+              <p class="lectures__paragraph">Javascript</p>
+              <p class="lectures__title">Gildi, týpur og virkjar</p>
+            </div>
+            </a>
+          </div>          
+        </div>
+
+        <div class="lectures__col js">
+          <div class="lectures__card pic7">
+            <a href="fyrirlestur.html?slug=js-programs">
+            <div class="lectures__text">            
+              <p class="lectures__paragraph">Javascript</p>
+              <p class="lectures__title">Forrit</p>
+            </div>
+            </a>
+          </div>          
+        </div>
+
+        <div class="lectures__col js">
+          <div class="lectures__card pic8">
+            <a href="fyrirlestur.html?slug=js-functions">
+            <div class="lectures__text">            
+              <p class="lectures__paragraph">Javascript</p>
+              <p class="lectures__title">Föll</p>
+            </div>
+            </a>
+          </div>          
+        </div>
+
+        <div class="lectures__col js">
+          <div class="lectures__card pic9">
+            <a href="fyrirlestur.html?slug=js-array">
+            <div class="lectures__text">            
+              <p class="lectures__paragraph">Javascript</p>
+              <p class="lectures__title">Array & objects</p>
+            </div>
+            </a>
+          </div>          
+        </div>
+
+        <div class="lectures__col js">
+          <div class="lectures__card lectures__card--sm">
+            <a href="fyrirlestur.html?slug=js-dom">
+            <div class="lectures__text lectures__text--sm">            
+              <p class="lectures__paragraph">Javascript</p>
+              <p class="lectures__title">DOM & vafrinn</p>
+            </div>
+            </a>
+          </div>          
+        </div>
+
+        <div class="lectures__col js">
+          <div class="lectures__card pic10">
+            <a href="fyrirlestur.html?slug=js-example">
+            <div class="lectures__text">            
+              <p class="lectures__paragraph">Javascript</p>
+              <p class="lectures__title">Dæmi</p>
+            </div>
+            </a>
+          </div>          
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+<script src="scripts.js"></script>
 </body>
 </html>
