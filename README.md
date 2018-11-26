@@ -1,4 +1,4 @@
-#Hópverkefni 2 
+# Hópverkefni 2 
 
 Nemendur: Ramon de la Rosa, Snædís Perla Sigurðardóttir og Jóhann Karl Hirst. 
 
@@ -8,10 +8,15 @@ Ekki gleyma að uppfæra reglurnar fyrir hvernig á að skipuleggja verkefnið.
 ## Tæki og tól
 
 Forritið er keyrt með því að setja upp npm og keyra það.
+
 --> npm install
+
 --> npm run dev
 
-
+[comment]: <> (Svona er athugasemd gerð í markdown....the more you learn...)
+[comment]: <> (npm install --save-dev rollup)
+[comment]: <> (npm install --save-dev @babel/core @babel/cli @babel/preset-env)
+[comment]: <> (npm install --save-dev rollup-plugin-babel)
 
 
 
