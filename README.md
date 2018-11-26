@@ -7,7 +7,7 @@ Ekki gleyma að uppfæra reglurnar fyrir hvernig á að skipuleggja verkefnið.
 
 ## Tæki og tól
 
-Forritið er keyrt með því að setja upp npm og keyra það.
+Til að virkja forritið er náð í npm og sett upp í gegnum Command promp/Terminal og því næst er það keyrt á eftirfarandi máta:
 
 --> npm install
 
