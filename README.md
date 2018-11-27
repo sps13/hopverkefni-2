@@ -13,11 +13,15 @@ Til að virkja forritið er náð í npm og sett upp í gegnum Command promp/Ter
 
 --> npm run dev
 
-[comment]: <> (Svona er athugasemd gerð í markdown....the more you learn...)
-[comment]: <> (Eftirfarandi er nauðsynlegt til að transpile-a allar skrárnar saman 'samanþjappað' og hafa dist/ skjal)
-[comment]: <> (npm install --save-dev rollup)
-[comment]: <> (npm install --save-dev @babel/core @babel/cli @babel/preset-env)
-[comment]: <> (npm install --save-dev rollup-plugin-babel)
+<!--Svona er athugasemd gerð í markdown....the more you learn...-->
+
+<!--Eftirfarandi er nauðsynlegt til að transpile-a allar skrárnar saman 'samanþjappað' og hafa dist/ skjal-->
+
+<!--npm install --save-dev rollup-->
+
+<!--npm install --save-dev @babel/core @babel/cli @babel/preset-env-->
+
+<!--npm install --save-dev rollup-plugin-babel-->
 
 
 
