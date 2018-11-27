@@ -13,6 +13,8 @@ Til að virkja forritið er náð í npm og sett upp í gegnum Command promp/Ter
 
 --> npm run dev
 
+Skoða skal athugasemd í markdown skjalinu.
+
 <!--Svona er athugasemd gerð í markdown....the more you learn...-->
 
 <!--Eftirfarandi er nauðsynlegt til að transpile-a allar skrárnar saman 'samanþjappað' og hafa dist/ skjal-->
