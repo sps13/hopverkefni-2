@@ -13,7 +13,6 @@ Til að virkja forritið er náð í npm og sett upp í gegnum Command promp/Ter
 
 --> npm run dev
 
-<<<<<<< HEAD
 <!--Svona er athugasemd gerð í markdown....the more you learn...-->
 
 <!--Eftirfarandi er nauðsynlegt til að transpile-a allar skrárnar saman 'samanþjappað' og hafa dist/ skjal-->
@@ -23,19 +22,6 @@ Til að virkja forritið er náð í npm og sett upp í gegnum Command promp/Ter
 <!--npm install --save-dev @babel/core @babel/cli @babel/preset-env-->
 
 <!--npm install --save-dev rollup-plugin-babel-->
-=======
-[comment]: <> (Svona er athugasemd gerð í markdown....the more you learn...)
-
-[comment]: <> (Eftirfarandi er nauðsynlegt til að transpile-a allar skrárnar saman 'samanþjappað' og hafa dist/ skjal)
-
-[comment]: <> (npm install --save-dev rollup)
-
-[comment]: <> (npm install --save-dev @babel/core @babel/cli @babel/preset-env)
-
-[comment]: <> (npm install --save-dev rollup-plugin-babel)
->>>>>>> ad91c5a1ea5f657b19e9ed598d611bd4d82854da
-
-
 
 # Hópverkefni 2
 
