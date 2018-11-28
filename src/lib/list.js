@@ -4,7 +4,7 @@ import { empty } from './helpers';
 export default class List {
   constructor() {
     this.container = document.querySelector('.list');
-    this.containerRow = document.querySelector('.list__row');
+    //  this.containerRow = document.querySelector('.list__row');
     //  this.url='../lectures.json';
   }
 
