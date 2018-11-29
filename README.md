@@ -1,6 +1,11 @@
 # Hópverkefni 2 
 
-Nemendur: Ramon de la Rosa, Snædís Perla Sigurðardóttir og Jóhann Karl Hirst. 
+Nemendur:<br>
+Jóhann Karl Hirst - jkh13@hi.is<br>
+Snædís Perla Sigurðardóttir - sps7@hi.is<br>
+Ramon de la Rosa, - rdl2@hi.is<br> 
+ 
+ 
 
 ## Tæki og tól
 Framkvæma þarf eftirfarandi:
@@ -13,7 +18,7 @@ hægt er ná í zip filen eða clone verkefnið beint af Github:<br>
 Næst þarf að opna Command promp/Terminal og fara í rótina á verkefninu. Til að keyra forrtið í möppunni þar að keyra eftirfarandi skipana línur: 
 
 
-`npm install`<br>
+`npm install` <br>
 `npm run dev`
 
 Svo að lokum þarf keyra styleint og eslint með:<br>
@@ -35,24 +40,11 @@ Skoða skal athugasemd í markdown skjalinu.
 ## Uppsetning Verkefnis
 * Setjum upp snyrtilegt `HTML` án villna, með class names svo hægt sé að tengja við CSS, notumst við `BEM`. HTML fyrir forsíðuna gerum við í `index.html` skjalinu og fyrir fyrirlestrarsíðuna í `fyrirlestur.html`.
 
-* Setjum upp `SCSS` skjöl fyrir: 
-  - forsíðu (`index.scss`) 
-  - fyrirlestrarsíðu (`fyrirlestur.scss`) 
-  - header (`header.scss`) 
-  - Stillingar fyrir skjástærðir (`size.scss`) 
-  - takka (`button.scss`)
+* Setjum upp `CSS` í `styles.css` og `grid.css`
 
-Allt geymt undir src/styles. 
+* Einnig setjum við upp `SCSS` skjöl fyrir forsíðu, fyrirlestrarsíðu, header, 
 
-* Svo setjum við upp `JavaScript` í nokkrum skrám: 
-  - `helpers.js` 
-  - `lect.js` sem heldur utan um allt sem tengist fyrirlestrunum 
-  - `list.js`  
-  - `storage.js` minni fyrir allt sem er gert á síðunni
-
-Geymt undir src/lib.
-
-Einnig `rollup.config.js` til að innihalda rollup og babel.
+* Svo setjum við upp `JavaScript` í nokkrum skrám: `helpers.js`, `lect.js`, `list.js` og `storage.js` . Einnig `rollup.config.js` til að innihalda rollup og babel.
 
 
 
