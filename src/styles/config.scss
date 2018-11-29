@@ -1,9 +1,5 @@
 $max-width: 1200px;
 $gutter: 20px;
-<<<<<<< HEAD
-
-=======
->>>>>>> 52b54a33f74ef08006e1b37ccaf73beeb2c3db50
 $font-heading: "Roboto Mono", "Courier New", monospace;
 $font-main: Lora, "Times New Roman", serif;
 
@@ -27,10 +23,6 @@ $font-main: Lora, "Times New Roman", serif;
 @mixin set-transition($property) {
   transition: $property 0.3s ease-in-out;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 52b54a33f74ef08006e1b37ccaf73beeb2c3db50
 $color-black: #000;
 $color-darkGrey:#999;
 $color-green: #2d2;
