@@ -1,4 +1,4 @@
-.button__container{
+.button__container {
   display: flex;
   margin-top: $gutter;
   margin-bottom: $gutter;
@@ -6,19 +6,17 @@
 }
 
 .button {
-  margin-left: $gutter;
   margin-right: $gutter;
-  border-radius: 4px;
-  border: none;
+  margin-left: $gutter;
   padding: 8px;
-  padding-left: $gutter;
-  padding-right: $gutter;
-
-
+  border: none; /* stylelint-disable-line */
   display: flex;
+  padding-right: $gutter;
+  border-radius: 4px;
+  padding-left: $gutter;
   background-color: $color-grey;
-  text-align: center;
   font-size: 1em;
+  text-align: center;
   font-family: $font-heading;
   font-weight: Bold;
   transition: color 0.3s ease-in-out; 
