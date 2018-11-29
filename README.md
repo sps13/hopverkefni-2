@@ -16,14 +16,9 @@ Næst þarf að opna Command promp/Terminal og fara í rótina á verkefninu. Ti
 `npm install`<br>
 `npm run dev`
 
-Svo að lokum þarf keyra styleint og selint með:<br>
+Svo að lokum þarf keyra styleint og eslint með:<br>
 `npm test` 
 
-Skipulag:
-
-* HTML
-* CSS
-* JavaScript
 
 Skoða skal athugasemd í markdown skjalinu.
 
