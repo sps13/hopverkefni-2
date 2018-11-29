@@ -1,7 +1,6 @@
 # Hópverkefni 2 
 
 Nemendur: Ramon de la Rosa, Snædís Perla Sigurðardóttir og Jóhann Karl Hirst. 
-##
 
 ## Tæki og tól
 * Framkvæma þarf eftirfarandi:
@@ -28,6 +27,19 @@ Skoða skal athugasemd í markdown skjalinu.
 <!--npm install --save-dev @babel/core @babel/cli @babel/preset-env-->
 
 <!--npm install --save-dev rollup-plugin-babel-->
+
+## Uppsetning Verkefnis
+* Setjum upp snyrtilegt `HTML` án villna, með class names svo hægt sé að tengja við CSS, notumst við `BEM`. HTML fyrir forsíðuna gerum við í `index.html` skjalinu og fyrir fyrirlestrarsíðuna í `fyrirlestur.html`.
+
+* Setjum upp `CSS` í `styles.css` og `grid.css`
+
+* Einnig setjum við upp `SCSS` skjöl fyrir forsíðu, fyrirlestrarsíðu, header, 
+
+* Svo setjum við upp `JavaScript` í nokkrum skrám: `helpers.js`, `lect.js`, `list.js` og `storage.js` . Einnig `rollup.config.js` til að innihalda rollup og babel.
+
+
+
+
 
 # Hópverkefni 2
 

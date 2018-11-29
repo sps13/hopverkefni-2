@@ -11,7 +11,7 @@ export function loadSavedLect() {
 }
 
 /**
- * Vistar eða hættir að vista hluti í Locale Storage
+ * Vistar eða hættir að vista hluti í Local Storage
  */
 export function savedLect(slug) { 
     const saved = loadSavedLect(); 
