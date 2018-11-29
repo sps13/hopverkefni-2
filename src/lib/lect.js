@@ -97,7 +97,7 @@ export default class List {
       const qs = new URLSearchParams(window.location.search);
       const slug = qs.get('slug');
 
-      this.loadLectures(slug)
+      this.loadLect(slug)
       .then(data => this.showList(data)) 
       
       .catch((error) => {

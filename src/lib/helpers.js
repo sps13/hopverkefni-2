@@ -1,6 +1,6 @@
 /**
- * Til að hreinsa börnin út úr element.
-@param {object} element Element sem á að hreinsa börn úr
+ *
+@param {object} 
 */
 export function empty(element) {
   while (element.firstChild) {
