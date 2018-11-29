@@ -40,11 +40,21 @@ Skoða skal athugasemd í markdown skjalinu.
 ## Uppsetning Verkefnis
 * Setjum upp snyrtilegt `HTML` án villna, með class names svo hægt sé að tengja við CSS, notumst við `BEM`. HTML fyrir forsíðuna gerum við í `index.html` skjalinu og fyrir fyrirlestrarsíðuna í `fyrirlestur.html`.
 
-* Setjum upp `CSS` í `styles.css` og `grid.css`
+* Setjum upp `SCSS` skjöl fyrir: 
+  - forsíðu (`index.scss`) 
+  - fyrirlestrarsíðu (`fyrirlestur.scss`) 
+  - header (`header.scss`) 
+  - Stillingar fyrir skjástærðir (`size.scss`) 
+  - takka (`button.scss`) 
+Allt geymt undir src/styles. 
 
-* Einnig setjum við upp `SCSS` skjöl fyrir forsíðu, fyrirlestrarsíðu, header, 
-
-* Svo setjum við upp `JavaScript` í nokkrum skrám: `helpers.js`, `lect.js`, `list.js` og `storage.js` . Einnig `rollup.config.js` til að innihalda rollup og babel.
+* Svo setjum við upp `JavaScript` í nokkrum skrám: 
+  - `helpers.js` 
+  - `lect.js` sem heldur utan um allt sem tengist fyrirlestrunum 
+  - `list.js`  
+  - `storage.js` minni fyrir allt sem er gert á síðunni 
+Geymt undir src/lib.
+Einnig `rollup.config.js` til að innihalda rollup og babel.
 
 
 
