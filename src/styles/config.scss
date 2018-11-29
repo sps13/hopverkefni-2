@@ -1,36 +1,33 @@
 $max-width: 1200px;
 $gutter: 20px;
-
-
 $font-heading: "Roboto Mono", "Courier New", monospace;
 $font-main: Lora, "Times New Roman", serif;
 
 @mixin row() {
- display: flex;
- margin-left: -($gutter / 2);
- margin-right: -($gutter / 2);
+  display: flex;
+  margin-right: -($gutter / 2);
+  margin-left: -($gutter / 2);
 }
 
 @mixin offset-left($cols: 0) {
   margin-left: ($cols/12 * 100) * 1%;
- }
- 
+}
+
 @mixin columns($col: 1) {
   //  breytum gildi í prósentu gildi með '1%'
- width: ($col / 12 * 100) * 1%;
- padding-left: $gutter / 2;
- padding-right: $gutter / 2;
+  width: ($col / 12 * 100) * 1%;
+  padding-right: $gutter / 2;
+  padding-left: $gutter / 2;
 }
 
 @mixin set-transition($property) {
-    transition: $property 0.3s ease-in-out;
-  }
-  
-  $color-black: #000;
-  $color-darkGrey:#999;
-  $color-green: #2d2;
-  $color-dankGreen: #1a1;
-  $color-nude: #fcffd2;
-  $color-pink: #cc9694;
-  $color-grey: #aaa;
-  $color-white: #ccc;
+  transition: $property 0.3s ease-in-out;
+}
+$color-black: #000;
+$color-darkGrey:#999;
+$color-green: #2d2;
+$color-dankGreen: #1a1;
+$color-nude: #fcffd2;
+$color-pink: #cc9694;
+$color-grey: #aaa;
+$color-white: #ccc;
