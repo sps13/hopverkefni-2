@@ -5,15 +5,16 @@ Nemendur: Ramon de la Rosa, Snædís Perla Sigurðardóttir og Jóhann Karl Hirs
 
 ## Tæki og tól
 * Framkvæma þarf eftirfarandi:
-Installa þarf Git og node.js í gegnum eftirfarandi link og fylgja leiðbeiningum sem þar eru gefnar ´https://git-scm.com/book/en/v2/Getting-Started-Installing-Git og https://nodejs.org/en/´.
+Installa þarf Git og node.js í gegnum eftirfarandi link og fylgja leiðbeiningum sem þar eru gefnar ´https://git-scm.com/book/en/v2/Getting-Started-Installing-Git og https://nodejs.org/en/´
 
 * Svo þarf að ná í verkefnið af slóð ´https://github.com/sps13/hopverkefni-2´
 
 * Næst þarf að opna Command promp/Terminal og fara í rótina á verkefninu. Til að keyra forrtið í möppunni þar að keyra eftirfarandi skipana línur:
 
- npm install
- npm run dev
- npm test 
+
+==> npm install
+==> npm run dev
+==> npm test 
 
 
 Skoða skal athugasemd í markdown skjalinu.
