@@ -145,7 +145,7 @@ export default class List {
    */
   imageElement(data){
     const image = el('div');
-    image.classList.add('index__lectureImage');
+    image.classList.add('index__lectImage');
 
     if(data.thumbnail){
       const img = el('img');
