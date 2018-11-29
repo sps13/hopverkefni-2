@@ -7,7 +7,7 @@ export default class List {
     this.containerRow = document.querySelector('.list__row');
     this.url='../lectures.json';
 
-    //Þegar ítt er á takka þarf að sína rétta fyrilestra
+    //Þegar ýtt er á takka þarf að sýna rétta fyrilestra
     this.HTMLButton=document.getElementById('button__HTML');
     this.CSSButton=document.getElementById('button__CSS');
     this.JSButton=document.getElementById('button__JavaScript');
@@ -17,7 +17,7 @@ export default class List {
   }
   
   /**
-   * Hleður niðu gögnunum inn á síðuna
+   * Hleður niður gögnunum inn á síðuna
    */
   load() {
     this.loadLect()
@@ -30,7 +30,7 @@ export default class List {
   }
   
   /**
-   * Fall sem skylar gögnunum
+   * Fall sem skilar gögnunum
    */
   loadLect() {
     return fetch(this.url)
@@ -43,7 +43,7 @@ export default class List {
   }
   
   /**
-   * Byrtir villuskilaboð
+   * Birtir villuskilaboð
    * @param {String} errorMessage 
    */
   setError(errorMessage){
@@ -51,8 +51,8 @@ export default class List {
   }
   
   /**
-   * Fall sem byrtir þá fyrirlestra sem eru í flokki HTML
-   * Og felur hina ef ekki er búið að byðja sérstaklega um að byrta þá
+   * Fall sem birtir þá fyrirlestra sem eru í flokki HTML
+   * Og felur hina ef ekki er búið að byðja sérstaklega um að birta þá
    * @param {click on button} e 
    */
   HTMLFunction(e) {
@@ -76,8 +76,8 @@ export default class List {
     }
   }
   /**
-   * Fall sem byrtir þá fyrirlestra sem eru í flokki CSS
-   * Og felur hina ef ekki er búið að byðja sérstaklega um að byrta þá
+   * Fall sem birtir þá fyrirlestra sem eru í flokki CSS
+   * Og felur hina ef ekki er búið að biðja sérstaklega um að birta þá
    * @param {click on button} e 
    */
   CSSFunction(e) {
@@ -88,7 +88,7 @@ export default class List {
 
     if(e.target.id == 'button__CSS'){
       for(let i= 1; i<=this.containerRow.children.length; i++){
-        //Ef ekki er búið að íta á annan takka, látum við allt annað en css hverfa
+        //Ef ekki er búið að ýta á annan takka, látum við allt annað en css hverfa
         if((this.HTMLButton.classList.value === 'button') && (this.JSButton.classList.value === 'button')){
           if(this.containerRow.childNodes[i].id !== 'css'){
             this.containerRow.childNodes[i].classList.toggle('invisible');
@@ -102,8 +102,8 @@ export default class List {
     }
   }
   /**
-   * Fall sem byrtir þá fyrirlestra sem eru í flokki JavaScript 
-   * Og felur hina ef ekki er búið að byðja sérstaklega um að byrta þá
+   * Fall sem birtir þá fyrirlestra sem eru í flokki JavaScript 
+   * Og felur hina ef ekki er búið að biðja sérstaklega um að birta þá
    * @param {click on button} e 
    */
   JSFunction(e) {
@@ -114,7 +114,7 @@ export default class List {
 
     if(e.target.id == 'button__JavaScript'){
       for(let i= 1; i<=this.containerRow.children.length; i++){
-        //Ef ekki er búið að íta á annan takka, látum við allt annað en JavaScript hverfa
+        //Ef ekki er búið að ýta á annan takka, látum við allt annað en JavaScript hverfa
         if((this.HTMLButton.classList.value === 'button') && (this.CSSButton.classList.value === 'button')){
           if(this.containerRow.childNodes[i].id !== 'javascript'){
             this.containerRow.childNodes[i].classList.toggle('invisible');
@@ -132,7 +132,7 @@ export default class List {
    * Skilar þeim upplýsingum sem eru vistuð í Local Storage á þessari síðu
    */
   addSaved(data){
-    const saved = loadSavedLect(); // Hér eru allir visturð
+    const saved = loadSavedLect(); // Hér eru allt vistað
 
     data.finished = saved.indexOf(data.slug) >= 0;
 
@@ -140,7 +140,7 @@ export default class List {
   }
 
   /**
-   * Býr til mynda hlut ef mynd er til staðar. Annar tóman hlut
+   * Býr til mynda hlut ef mynd er til staðar. Annars tóman hlut
    * Skilar svo hlutnum
    */
   imageElement(data){
@@ -164,7 +164,7 @@ export default class List {
   }
 
   /**
-   * Být til textaboxið sem heldur utan um fyrirsögn og flokk
+   * Býr til textaboxið sem heldur utan um fyrirsögn og flokk
    * hvers fyrilesturs. Skilar textaboxinu. 
    */
   textElement(data){
@@ -205,7 +205,7 @@ export default class List {
   }
 
   /**
-   * Byrtir gögnin á síðunni
+   * Birtir gögnin á síðunni
    */
   show(data){
     const image = this.imageElement(data);
@@ -225,7 +225,7 @@ export default class List {
   }
 
   /**
-   * Rennur í genum lista af öllum gögnunum sem á að byrta, og lætur byrta hvert og eitt
+   * Rennur í gegnum lista af öllum gögnunum sem á að birta, og lætur birta hvert og eitt
    */
   showList(data){
     var i;

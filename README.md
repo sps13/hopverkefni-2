@@ -1,21 +1,29 @@
 # Hópverkefni 2 
 
 Nemendur: Ramon de la Rosa, Snædís Perla Sigurðardóttir og Jóhann Karl Hirst. 
-##
 
 ## Tæki og tól
-* Framkvæma þarf eftirfarandi:
-Installa þarf Git og node.js í gegnum eftirfarandi link og fylgja leiðbeiningum sem þar eru gefnar ´https://git-scm.com/book/en/v2/Getting-Started-Installing-Git og https://nodejs.org/en/´
+Framkvæma þarf eftirfarandi:
+Installa þarf Git og node.js í gegnum eftirfarandi link og fylgja leiðbeiningum sem þar eru gefnar `https://git-scm.com/book/en/v2/Getting-Started-Installing-Git` og `https://nodejs.org/en/`
 
-* Svo þarf að ná í verkefnið af slóð ´https://github.com/sps13/hopverkefni-2´
+Svo þarf að ná í verkefnið af slóð `https://github.com/sps13/hopverkefni-2`
+hægt er ná í zip filen eða clone verkefnið beint af Github:<br>
+`git clone https://github.com/sps13/hopverkefni-2.git`
 
-* Næst þarf að opna Command promp/Terminal og fara í rótina á verkefninu. Til að keyra forrtið í möppunni þar að keyra eftirfarandi skipana línur:
+Næst þarf að opna Command promp/Terminal og fara í rótina á verkefninu. Til að keyra forrtið í möppunni þar að keyra eftirfarandi skipana línur: 
 
 
-==> npm install
-==> npm run dev
-==> npm test 
+`npm install`<br>
+`npm run dev`
 
+Svo að lokum þarf keyra styleint og selint með:<br>
+`npm test` 
+
+Skipulag:
+
+* HTML
+* CSS
+* JavaScript
 
 Skoða skal athugasemd í markdown skjalinu.
 
@@ -28,6 +36,19 @@ Skoða skal athugasemd í markdown skjalinu.
 <!--npm install --save-dev @babel/core @babel/cli @babel/preset-env-->
 
 <!--npm install --save-dev rollup-plugin-babel-->
+
+## Uppsetning Verkefnis
+* Setjum upp snyrtilegt `HTML` án villna, með class names svo hægt sé að tengja við CSS, notumst við `BEM`. HTML fyrir forsíðuna gerum við í `index.html` skjalinu og fyrir fyrirlestrarsíðuna í `fyrirlestur.html`.
+
+* Setjum upp `CSS` í `styles.css` og `grid.css`
+
+* Einnig setjum við upp `SCSS` skjöl fyrir forsíðu, fyrirlestrarsíðu, header, 
+
+* Svo setjum við upp `JavaScript` í nokkrum skrám: `helpers.js`, `lect.js`, `list.js` og `storage.js` . Einnig `rollup.config.js` til að innihalda rollup og babel.
+
+
+
+
 
 # Hópverkefni 2
 

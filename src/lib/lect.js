@@ -9,7 +9,7 @@ export default class List {
     }
 
     /**
-     * Vistar í local sorage og skilar þeim sem eru vistuð
+     * Vistar í local storage og skilar þeim sem eru vistuð
      * @param {*} e 
      */
     finished(e){   
@@ -46,7 +46,7 @@ export default class List {
     }
 
     /**
-     * Byrtir gögnin sem eiga að vera á síðu með þetta url
+     * Birtir gögnin sem eiga að vera á síðu með þetta url
      * @param {url} slug 
      */
     showFinished(slug){
@@ -78,7 +78,7 @@ export default class List {
     }
 
     /**
-     * Býr til takk til að fara til baka og setur virkni á hann
+     * Býr til takka til að fara til baka og setur virkni á hann
      */
     showGoBack(){
       const back__container = el('div');
@@ -110,8 +110,8 @@ export default class List {
     }
 
     /**
-     * Býr til rétt element miðað við af hvaða týpu gögnin sem á að byrta eru. 
-     * Setur gögnin úr data inn í hlutin og byrtir þau. 
+     * Býr til rétt element miðað við af hvaða týpu gögnin sem á að birta eru. 
+     * Setur gögnin úr data inn í hlutin og birtir þau. 
      */
     show(data){
       if(data.type === 'text' || data.type === 'code'){
@@ -193,7 +193,7 @@ export default class List {
     }
 
     /**
-     * Tekur inn lista af gögnum. Rennir í gegnum hann og lætur byrta hvert 
+     * Tekur inn lista af gögnum. Rennir í gegnum hann og lætur birta hvert 
      * item af listanum. 
      */
     showList(data){
