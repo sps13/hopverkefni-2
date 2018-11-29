@@ -16,14 +16,9 @@ Næst þarf að opna Command promp/Terminal og fara í rótina á verkefninu. Ti
 `npm install`<br>
 `npm run dev`
 
-Svo að lokum þarf keyra styleint og selint með:<br>
+Svo að lokum þarf keyra styleint og eslint með:<br>
 `npm test` 
 
-Skipulag:
-
-* HTML
-* CSS
-* JavaScript
 
 Skoða skal athugasemd í markdown skjalinu.
 
@@ -45,15 +40,18 @@ Skoða skal athugasemd í markdown skjalinu.
   - fyrirlestrarsíðu (`fyrirlestur.scss`) 
   - header (`header.scss`) 
   - Stillingar fyrir skjástærðir (`size.scss`) 
-  - takka (`button.scss`) 
+  - takka (`button.scss`)
+
 Allt geymt undir src/styles. 
 
 * Svo setjum við upp `JavaScript` í nokkrum skrám: 
   - `helpers.js` 
   - `lect.js` sem heldur utan um allt sem tengist fyrirlestrunum 
   - `list.js`  
-  - `storage.js` minni fyrir allt sem er gert á síðunni 
+  - `storage.js` minni fyrir allt sem er gert á síðunni
+
 Geymt undir src/lib.
+
 Einnig `rollup.config.js` til að innihalda rollup og babel.
 
 
