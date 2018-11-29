@@ -1,16 +1,14 @@
 import List from './lib/list';
-//  import Lecture from './lib/lecture';
+import Lect from './lib/lect';
 
 document.addEventListener('DOMContentLoaded', () => {
   const page = document.querySelector('body');
-  const isLecturePage = page.classList.contains('lecture-page');
-
-  if (isLecturePage) {
-    //  const lecture = new Lecture();
-    //  lecture.load();
+  const isLectPage = page.classList.contains('lect-page');
+  if (isLectPage) {
+    const lect = new Lect();
+    lect.load();
   } else {
     const list = new List();
     list.load();
   }
 });
- 

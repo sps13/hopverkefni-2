@@ -1,0 +1,87 @@
+.lect__main{
+    max-width: 1220px;
+    margin: 0 auto;
+  }
+
+.lect__list{
+    margin: 0 auto;
+}
+
+.text, .quote, .image__container, .youtube, .category__heading, .list__item {
+    margin-bottom: $gutter;
+}
+
+.youtube {
+    height: 380px;
+    width: 100%;
+}
+
+.quote {
+    padding: $gutter;
+}
+
+.quote__container {
+    background-color: $color-grey;
+}
+.quoteAuthor {
+    font-style: italic;
+    padding-bottom: $gutter;
+    padding-left: $gutter;
+}
+
+.imgText {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.category__heading{
+    margin-top: $gutter;
+}
+
+.list__item {
+    margin-left: $gutter;
+    font-family: $font-main;
+}
+
+.code{
+    font-family: $font-heading;
+    min-height: 1em;
+}
+
+.back__container {
+    text-align: center;
+    margin-top:$gutter;
+    margin-bottom: 2* $gutter;
+}
+.finished__contaner {
+    display: flex;
+    height: 1em;
+    margin-top:2*$gutter;
+    margin-bottom: 2*$gutter;
+    justify-content: center;
+}
+
+.finished__done {
+    text-decoration: none;
+    color: $color-dankGreen;
+    
+    font-family: $font-heading;
+}
+
+.back__link, .finished{
+    text-decoration: none;
+    color: $color-black;
+    
+    font-family: $font-heading;
+}
+
+.seeImage {
+    visibility: visible;
+    width: 20px;
+    color: $color-dankGreen;
+    font-weight: bold;
+}
+.dontSeeImage {
+    visibility: hidden;
+    width: 20px;
+}
