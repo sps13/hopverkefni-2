@@ -194,7 +194,7 @@ export default class List {
    * Local Storage eða ekki. 
    */
   showDone(textElement, data){
-    const ls = localStorage.lect.substring(1,(localStorage.lectures.length)-1)
+    const ls = localStorage.lectures.substring(1,(localStorage.lectures.length)-1)
     const lsList = ls.split(',');
     for(let i=0; i< lsList.length; i++){
       if(lsList[i] === '"' + data.slug + '"'){

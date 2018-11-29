@@ -6,6 +6,7 @@
 }
 
 .button {
+<<<<<<< HEAD
   padding: 8px;
   padding-right: $gutter;
   padding-left: $gutter;
@@ -13,6 +14,19 @@
   margin-right: $gutter;
   margin-left: $gutter;
   border: none;
+=======
+  margin-right: $gutter;
+  margin-left: $gutter;
+  padding: 8px;
+  border: none; /* stylelint-disable-line */
+  display: flex;
+  padding-right: $gutter;
+  border-radius: 4px;
+  padding-left: $gutter;
+  background-color: $color-grey;
+  font-size: 1em;
+  text-align: center;
+>>>>>>> e4517e743adb3ebf73125e6b6069d528ab7fbc1d
   font-family: $font-heading;
   border-radius: 4px;
 
