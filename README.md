@@ -1,17 +1,20 @@
 # Hópverkefni 2 
 
 Nemendur: Ramon de la Rosa, Snædís Perla Sigurðardóttir og Jóhann Karl Hirst. 
-
-Ekki gleyma að uppfæra reglurnar fyrir hvernig á að skipuleggja verkefnið.
-
+##
 
 ## Tæki og tól
+* Framkvæma þarf eftirfarandi:
+Installa þarf Git og node.js í gegnum eftirfarandi link og fylgja leiðbeiningum sem þar eru gefnar ´https://git-scm.com/book/en/v2/Getting-Started-Installing-Git og https://nodejs.org/en/´.
 
-Til að virkja forritið er náð í npm og sett upp í gegnum Command promp/Terminal og því næst er það keyrt á eftirfarandi máta:
+* Svo þarf að ná í verkefnið af slóð ´https://github.com/sps13/hopverkefni-2´
 
---> npm install
+* Næst þarf að opna Command promp/Terminal og fara í rótina á verkefninu. Til að keyra forrtið í möppunni þar að keyra eftirfarandi skipana línur:
 
---> npm run dev
+ npm install
+ npm run dev
+ npm test 
+
 
 Skoða skal athugasemd í markdown skjalinu.
 
