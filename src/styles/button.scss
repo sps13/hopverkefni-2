@@ -1,56 +1,56 @@
 .button__container{
-    display: flex;
-    margin-top: $gutter;
-    margin-bottom: $gutter;
-    justify-content: center;
+  display: flex;
+  margin-top: $gutter;
+  margin-bottom: $gutter;
+  justify-content: center;
 }
 
 .button {
-    margin-left: $gutter;
-    margin-right: $gutter;
-    border-radius: 4px;
-    border: none;
-    padding: 8px;
-    padding-left: $gutter;
-    padding-right: $gutter;
+  margin-left: $gutter;
+  margin-right: $gutter;
+  border-radius: 4px;
+  border: none;
+  padding: 8px;
+  padding-left: $gutter;
+  padding-right: $gutter;
 
 
-    display: flex;
-    background-color: $color-grey;
-    text-align: center;
-    font-size: 1em;
-    font-family: $font-heading;
-    font-weight: Bold;
-    transition: color 0.3s ease-in-out; 
+  display: flex;
+  background-color: $color-grey;
+  text-align: center;
+  font-size: 1em;
+  font-family: $font-heading;
+  font-weight: Bold;
+  transition: color 0.3s ease-in-out; 
 }
 .button:hover {
-    background-color: $color-darkGrey; 
+  background-color: $color-darkGrey; 
 }
 
 .sort__button {
-    margin-left: $gutter;
-    margin-right: $gutter;
-    border-radius: 4px;
-    border: none;
-    padding: 8px;
-    padding-left: $gutter;
-    padding-right: $gutter;
+  margin-left: $gutter;
+  margin-right: $gutter;
+  border-radius: 4px;
+  border: none;
+  padding: 8px;
+  padding-left: $gutter;
+  padding-right: $gutter;
 
 
-    display: flex;
-    background-color: $color-green;
-    text-align: center;
-    font-size: 1em;
-    font-family: $font-heading;
-    font-weight: Bold;
-    transition: color 0.3s ease-in-out; 
+  display: flex;
+  background-color: $color-green;
+  text-align: center;
+  font-size: 1em;
+  font-family: $font-heading;
+  font-weight: Bold;
+  transition: color 0.3s ease-in-out; 
 }
 .sort__button:hover {
-    background-color: $color-dankGreen;
+  background-color: $color-dankGreen;
 }
 
 .invisible {
-    display: none;
+  display: none;
 }
 
 

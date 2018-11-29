@@ -1,5 +1,5 @@
-import { el } from './helpers';
-import { loadSavedLect } from './storage';
+import { empty, el } from './helpers';
+import { loadSavedLect, savedLect } from './storage';
 
 export default class List {
   constructor() {
@@ -150,12 +150,12 @@ export default class List {
     if(data.thumbnail){
       const img = el('img');
       img.setAttribute('src', data.thumbnail);
-      img.classList.add('index__lectureImg');
+      img.classList.add('index__lectImg');
       img.setAttribute('alt', data.title); 
       image.appendChild(img);
     } else {
       const img = el('div');
-      img.classList.add('index__lectureImg');
+      img.classList.add('index__lectImg');
       img.setAttribute('alt', data.title); 
       image.appendChild(img);
     }
@@ -194,7 +194,7 @@ export default class List {
    * Local Storage eða ekki. 
    */
   showDone(textElement, data){
-    const ls = localStorage.lectures.substring(1,(localStorage.lectures.length)-1)
+    const ls = localStorage.lect.substring(1,(localStorage.lectures.length)-1)
     const lsList = ls.split(',');
     for(let i=0; i< lsList.length; i++){
       if(lsList[i] === '"' + data.slug + '"'){
@@ -229,8 +229,8 @@ export default class List {
    */
   showList(data){
     var i;
-    for(i=0; i< data.lectures.length; i++){
-      this.show(data.lectures[i]);
+    for(i=0; i< data.lect.length; i++){
+      this.show(data.lect[i]);
     }
     return '';
   }

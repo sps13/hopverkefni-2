@@ -1,4 +1,4 @@
-import { el } from './helpers';
+import { empty, el } from './helpers';
 import { loadSavedLect, savedLect,  } from './storage';
 
 export default class List {
@@ -55,10 +55,10 @@ export default class List {
       finished.setAttribute('href', '/fyrirlestur.html?slug=' +slug); 
       finished.addEventListener('click', this.finished); 
       
-      const finished__contaner = el('div', finished__img, finished);
-      finished__contaner.classList.add('finished__contaner');
+      const finished__container = el('div', finished__img, finished);
+      finished__container.classList.add('finished__contaner');
   
-      this.container.appendChild(finished__contaner);
+      this.container.appendChild(finished__container);
 
       const ls = localStorage.lectures.substring(1,(localStorage.lectures.length)-1)
       const lsList = ls.split(',');
