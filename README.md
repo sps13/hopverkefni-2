@@ -40,15 +40,15 @@ Skoða skal athugasemd í markdown skjalinu.
   - fyrirlestrarsíðu (`fyrirlestur.scss`) 
   - header (`header.scss`) 
   - Stillingar fyrir skjástærðir (`size.scss`) 
-  - takka (`button.scss`) 
+  - takka (`button.scss`) <br>
 Allt geymt undir src/styles. 
 
 * Svo setjum við upp `JavaScript` í nokkrum skrám: 
   - `helpers.js` 
   - `lect.js` sem heldur utan um allt sem tengist fyrirlestrunum 
   - `list.js`  
-  - `storage.js` minni fyrir allt sem er gert á síðunni 
-Geymt undir src/lib.
+  - `storage.js` minni fyrir allt sem er gert á síðunni <br>
+Geymt undir src/lib.<br>
 Einnig `rollup.config.js` til að innihalda rollup og babel.
 
 
