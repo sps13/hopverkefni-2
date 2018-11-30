@@ -1,6 +1,6 @@
 /**
  *
-@param {object} 
+@param {object}
 */
 export function empty(element) {
   while (element.firstChild) {
@@ -8,7 +8,7 @@ export function empty(element) {
   }
 }
 /**
- * Býr til element og setur aukalega börn ef þau eru send með meðfylgjandi..
+ *
  * @param {string} name á element
  * @param  {...any} children fyrir element
  */

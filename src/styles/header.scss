@@ -4,8 +4,8 @@
 }
 
 *,
-*:before,
-*:after {
+*::before,
+*::after {
   box-sizing: inherit;
 }
 
@@ -15,8 +15,10 @@
   font-size: 16px;
 }
 
-h1,/*stylelint-disable-line*/
-h2 {/*stylelint-disable-line*/
+//  eslint-disable-next-line no-shadow
+h1,
+// eslint-disable-next-line no-shadow
+h2 {
   font-family: $font-heading;
 }
 

@@ -4,13 +4,15 @@
   "description": "v10",
   "main": "index.js",
   "scripts": {
-    "eslint": "eslint ./src/**/*.js",
+    "eslint": "eslint ./src/ --ext .js",
+    "rollup": "rollup -c",
+    "rollup-watch": "rollup -c -w",
     "browser-sync": "browser-sync start --server --files index.html fyrirlestur.html ./dist/styles.css ./dist/bundle.js",
     "stylelint": "stylelint ./src/styles/**/*.scss --syntax scss",
     "sass": "node-sass --source-map-embed ./src/styles/styles.scss ./dist/styles.css",
     "sass-watch": "node-sass --source-map-embed --watch --recursive src/styles/styles.scss ./dist/styles.css",
     "test": "concurrently npm:eslint npm:stylelint",
-    "dev": "concurrently npm:sass npm:sass-watch npm:browser-sync"
+    "dev": "concurrently npm:sass npm:sass-watch npm:browser-sync npm:rollup-watch"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +27,7 @@
     "eslint-config-airbnb-base": "^13.1.0",
     "eslint-plugin-import": "^2.14.0",
     "node-sass": "^4.10.0",
+    "rollup": "^0.67.3",
     "rollup-plugin-babel": "^4.0.3",
     "stylelint": "^9.7.1",
     "stylelint-config-primer": "^2.2.11"
